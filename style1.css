@@ -1,0 +1,183 @@
+/* Signup Page Css */
+
+
+*{
+    font-family: "Spline Sans", sans-serif;
+     background-color: #141414;  
+    color: white;
+  }
+ .headerlogin{
+    margin: 1rem;
+    position: absolute;
+    left: 44%;
+    height: 2.6rem;
+     border-radius:50% ;
+     /* top: 5rem; */
+ }
+.mainsignbox{
+ display: flex;
+ justify-content: center;
+ position: absolute;
+ top: 10.7%;
+ left:34%;
+ height: 100%;
+ width: 27%;
+
+ }
+.signbox h2{
+ font-size: 2.7rem;
+ text-align: center;
+}
+.emailbox{
+    height: 2.5rem;
+    width: 80%;
+    border: none;
+    border: #646161 solid 0.1rem ;
+}
+.emailbox:hover{
+    border: #ddd solid 0.1rem;
+}
+.signbox p{
+    font-size: 0.8rem; 
+}
+.phone a{
+    color: #1bd760;
+   font-size: 0.8rem;
+}
+.btn{
+    height: 3rem;
+    width: 80%;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #1bd760;
+    color: #000;
+    border-radius: 5rem;
+    margin: 1rem;
+    text-decoration: none ;
+}
+.mid{
+    position: absolute;
+   left: 40%;
+    top:59.4%
+}
+.sociallogin img{
+height: 1.2rem;
+width: 1.2rem;
+position: absolute;
+left: 10%;
+
+}
+.logos{
+    height: 3rem;
+    width: 90%;
+    border-radius: 4rem;
+    border: #646161 solid 0.1rem ;
+    font-weight: 500;
+   margin: 0.3rem;
+    font-size: 1.1rem;
+
+}
+.logos:hover{
+    border: #ddd solid 0.1rem;
+}
+.down{
+    font-size: 0.75rem;
+      opacity: 0.5;
+     word-spacing: 0.3rem;
+     margin: 1rem;
+     text-align: center;
+}
+
+/* Login Page Css */
+.mainloginbox{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 6%;
+    left:28%;
+    height: 100%;
+    width: 50%;
+  background-color: #121212;
+ border-radius: 2rem;
+}
+.mainloginbox h2{
+    font-size: 2.1rem;
+    text-align: center;
+     position: absolute;
+    top: 9%;
+
+}
+.sociallogin-1{ 
+    position: relative;
+   top: 25%; 
+ width: 50%;
+ font-size: 1rem;
+
+} 
+.sociallogin-1 img{
+    height: 1.2rem;
+    width: 1.2rem;
+    position: absolute;
+    left: 10%;
+  
+    }
+    .logos-1{
+        height: 3rem;
+        width: 90%;
+        border-radius: 4rem;
+        border: #646161 solid 0.1rem ;
+        font-weight: 500;
+       margin: 0.3rem;
+        font-size: 1.1rem;
+    
+    }
+    .logos-1:hover{
+        border: #ddd double 0.1rem;
+    }
+
+.part{
+    position: absolute;
+    left: 23%;
+    top: 70%;
+    line-height: 2rem;
+}
+.btn-e{
+    position: relative;
+        height: 2.5rem;
+    width: 80%;
+    border: none;
+  border: #646161 solid 0.1rem
+}
+.btn-e:hover{
+    opacity: 1;
+    border: #ddd solid 0.1rem
+}
+
+.btn-l{
+     position: relative;
+     height: 3rem;
+    width: 80%;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #1bd760;
+    color: #000;
+    border-radius: 5rem;
+    margin: 1rem;
+    text-decoration: none ;
+} 
+.btn-l:hover{
+ transform:scale(1.05);
+}
+.Forgot:hover{
+    color: #1bd760;
+}
+.foot{
+    background-color: #121212;
+    position: absolute;
+    bottom: -50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 99%;
+    height: 3rem;
+   }
