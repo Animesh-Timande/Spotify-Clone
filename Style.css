@@ -1,0 +1,437 @@
+* {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.box {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oneside {
+    background-color: #000;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    /* margin-right:1rem; */
+
+}
+
+.topsidebar {
+    background-color: #121212;
+    width: 280px;
+    height: 170px;
+    margin: 0.8rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.spotify a {
+    padding: 0.7rem;
+    line-height: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.home a {
+    line-height: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.home i {
+    font-size: 1.2rem;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.search a {
+    line-height: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    opacity: 0.6;
+    font-weight: 600;
+}
+
+.search i {
+    font-size: 1.2rem;
+    padding: 0rem 1rem 0rem 1rem;
+    opacity: 0.6;
+}
+
+.search :hover {
+    opacity: 1;
+}
+
+.library {
+    width: 280px;
+    height: 100vh;
+    background-color: #121212;
+    border-radius: 1rem;
+    margin: 0.8rem;
+
+}
+
+.lab0 img {
+    height: 1.4em;
+    width: 1.6rem;
+    margin-left: 1rem;
+
+}
+
+.lab0 {
+    line-height: 3rem;
+    opacity: 0.7;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.lab0 a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-right: 2rem;
+    /* justify-content: space-between; */
+}
+
+.lab0 i {
+    margin-left: 2rem;
+}
+
+.lab0:hover {
+    opacity: 1;
+}
+
+.libbox {
+    height: 5.8rem;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    line-height: 1rem;
+    padding: 1rem 1.25rem;
+    font-weight: 300;
+}
+
+.lib1 {
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.button1 button {
+    color: #000;
+    text-wrap: fixed;
+    border: none;
+    font-weight: 600;
+    width: fit-content;
+    height: 2.2rem;
+    background-color: white;
+    border-radius: 4rem;
+    padding: 0.25rem 1rem;
+
+}
+
+.libbox2 {
+    height: 7.5rem;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin: 0.5rem 0 0.5rem 0;
+    line-height: 1rem;
+    padding: 1rem 1.25rem;
+    font-weight: 300;
+}
+
+.lib2 {
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+.button2 button {
+    color: #000;
+    text-wrap: fixed;
+    border: none;
+    font-weight: 600;
+    width: fit-content;
+    height: 2.2rem;
+    background-color: white;
+    border-radius: 4rem;
+    padding: 0.25rem 1rem;
+
+}
+
+.mainbox {
+    background-color: #000;
+    flex: 1;
+    height: 100vh;
+    overflow: auto;
+}
+
+.nav {
+    background-color: #121212;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.icon0 {
+    padding: 0.3rem;
+    justify-content: left;
+    font-weight: 600;
+    margin-left: 1rem;
+    justify-content: space-between;
+    opacity: 0.7;
+
+}
+
+.icons {
+    justify-content: right;
+}
+
+.icon1 a {
+    text-decoration: none;
+}
+
+.icon2 a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.icon1 {
+    background-color: #121212;
+    color: #fff;
+    width: 1rem;
+    width: fit-content;
+    border: none;
+    border-radius: 10rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.icon1:hover {
+    opacity: 1;
+    font-size: 1.1rem;
+}
+
+.icon2 {
+    background-color: #fff;
+    width: 6.5rem;
+    border: none;
+    border-radius: 10rem;
+    height: 3rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+
+}
+
+.icon2:hover {
+    transform: scale(1.1);
+}
+
+@media(max-width:1000px) {
+    .hide {
+        display: none;
+    }
+}
+
+.fullcard {
+    background-color: #181616;
+    margin-top: 0rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular {
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.popular h2:hover {
+    text-decoration: underline;
+}
+
+.songcards {
+    height: 14rem;
+    width: 13rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.c1 img {
+    height: 10rem;
+    width: 100%;
+}
+
+.songcards:hover {
+    background-color: #232323;
+
+}
+
+/* .pic img{
+    position: absolute;
+    left: 30rem;
+    top: 22rem;
+    border-radius: 60%;
+    opacity: 0;
+
+ }
+ .pic img:hover{
+    opacity: 1;
+  }
+  */
+
+.footerbox {
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3.3rem;
+    display: flex;
+}
+
+.footer1 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer1 img {
+    height: 2rem;
+    width: 2rem;
+    margin: 0.4rem;
+}
+
+.music img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.2rem;
+}
+
+.footer2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper {
+    display: flex;
+    justify-content: center;
+    height: 65%;
+}
+
+.upplay {
+    height: 1.1rem;
+    margin-right: 1.5rem;
+    opacity: 0.6;
+}
+
+.upplay:hover {
+    opacity: 1;
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playber {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.playber::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    height: 0.25rem;
+
+
+}
+
+.playber::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.footer3 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer3 img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1rem;
+    height: 3rem;
+}
+
+.footer3 img::hover {
+    opacity: 1;
+}
+
+.about {
+    background-color: red;
+}
+
+.FooterInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 0rem 3rem 0rem;
+}
+
+.Company h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Company p {
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+.Company p:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.social i {
+    font-size: 1.4rem;
+    margin: 2.4rem 1rem 0rem 0rem;
+    opacity: 0.6;
+
+}
+
+.social i:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
